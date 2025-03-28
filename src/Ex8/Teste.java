@@ -17,7 +17,11 @@ public class Teste {
 		for(Animal i: animais) {
 			
 			if(i instanceof Cachorro) {
-				
+				i.fazerSom();
+			}
+			
+			if (i instanceof Gato) {
+				i.fazerSom();
 			}
 		}
 		
